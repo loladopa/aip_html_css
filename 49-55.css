@@ -1,0 +1,84 @@
+p {
+	color: red;
+
+}
+i {
+	color: blue;
+}
+i {
+	font-size: 30px;
+}
+ul {
+	font-size: 20px;
+}
+li {
+	color: red;
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+h2 {
+	color: blue;
+}
+h3 {
+	font-size: 16px;
+	color: red;
+}
+
+
+h1, h2, h3 {
+	text-align: center;
+	color: red;
+}
+h3 {
+	font-size: 16px;
+}
+
+ul li {
+	color: red;
+}
+ol li {
+	color: green;
+}
+
+ul li i {
+	color: red;
+}
+
+li i {
+	color: red;
+}
+p i {
+	color: green;
+}
+b i {
+	color: red;
+}
+
+li > b {
+	color: red;
+}
+
+.eee {
+	color: green;
+}
+.zzz {
+	color: red;
+}
+
+.eve {
+	color: green;
+}
+.odd {
+	color: red;
+}
+
+.eee {
+	color: red;
+}

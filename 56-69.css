@@ -1,0 +1,202 @@
+.H {
+	color: red;
+}
+
+.xxx {
+	font-size: 30px;
+}
+
+.block1 {
+	color: red;
+}
+.block2 {
+	color: green;
+}
+
+.d1 > p {
+	color: red;
+}
+
+.d2 > p {
+	color: green;
+}
+
+.xxx {
+	color: green;
+}
+.yyy {
+	color: red;
+}
+
+.xxx, .yyy {
+	font-size: 30px;
+}
+
+.eee {
+	font-size: 20px;
+
+}
+.zzz {
+	font-size: 30px;
+}
+
+.eee, .zzz {
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+.eee {
+	font-size: 20px;
+}
+.zzz {
+	font-size: 30px;
+}
+.ggg {
+	font-size: 35px;
+}
+.eee, .zzz, .ggg {
+    text-align: center;
+	font-family: Arial;
+}
+
+.eee {
+	color: red;
+}
+
+h2.eee {
+	color: red;
+}
+p.eee {
+	color: green;
+}
+
+.header {
+	color: red;
+}
+
+h2.header{
+    font-size: 20px;
+}
+
+h2.header{
+    font-size: 30px;
+}
+
+.block h2 {
+	color: red;
+}
+.block p {
+	color: green;
+}
+
+.eee i {
+	color: red;
+}
+
+.block .header {
+	font-family: Arial;
+}
+
+.block h2.header {
+	font-size: 30px;
+	color: red;
+}
+
+.block h3.header {
+	font-size: 20px;
+	color: green;
+}
+p.eee {
+	color: red;
+}
+
+p .eee {
+	color: red;
+}
+
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+	font-family: Arial;
+}
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+.qq {
+    color: purple;
+}
+
+.ww {
+    font-family: 'Times New Roman';
+}
+
+.ee {
+    font-size: 35px;
+}
+
+#elem1 {
+	color: red;
+}
+#elem2 {
+	color: green;
+}
+#elem3 {
+	color: blue;
+}
+
+#block {
+	color: red;
+	font-family: Arial;
+}
+.large {
+	font-size: 30px;
+}
+
+#block {
+	color: red;
+	font-family: Arial;
+}
+.text {
+	font-size: 30px;
+}
+
+#block h2 {
+	color: red;
+}
+
+#block p {
+	color: green;
+}
+
+#elem h2 {
+    color: purple;
+}
+
+#elem .text {
+    color: pink;
+}
+
+#elem li.text {
+    color: orange;
+}
+
+.eee.zzz {
+	color: red;
+}
+
+.eee.zzz.ccc{
+	color: purple;
+}

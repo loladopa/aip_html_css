@@ -1,0 +1,377 @@
+.block h2, .block h3 {
+	color: red;
+}
+
+#block h1, #block h2 {
+	text-align: center;
+}
+
+#block h1 {
+	font-size: 30px;
+}
+#block h2 {
+	font-size: 20px;
+}
+#block h1, #block h2 {
+    text-align: center;
+}
+
+
+#block h2 {
+	color: blue;
+}
+#block h3 {
+	font-size: 16px;
+	color: red;
+}
+
+#block h1, #block h2, #block h3 {
+    text-align: center;
+}
+
+
+#block h1.eee {
+	font-size: 30px;
+}
+#block h2.zzz {
+	font-size: 20px;
+}
+
+#block h1.eee, #block h2.zzz {
+    text-align: center;
+}
+
+
+
+
+.xxx .kkk, .eee h2.zzz, #eee h2 {
+    text-align: center;
+}
+
+
+.eee h2.zzz, .xxx {
+	text-align: center;
+}
+
+.q {
+    color: purple;
+}
+
+.u h2 {
+    color: pink;
+}
+
+#block p  {
+	color: red;
+}
+
+#block h2  {
+	color: green;
+}
+
+
+.bbb {
+    color: purple;
+}
+
+#block .bbb {
+	color: green;
+}
+
+p .bbb  {
+    color: purple;
+}
+
+h2 .bbb  {
+    color: purple;
+}
+
+#block h2 .bbb {
+    color: red;
+}
+
+
+.bbb, .xxx {
+    color: green;
+}
+
+
+.bbb p {
+    color: blue;
+}
+
+
+.xxx h2 {
+    color: orange;
+}
+
+
+
+#block p .bbb {
+    color: gray;
+}
+#block p .xxx {
+    color: brown;
+}
+
+
+
+.fff { 
+    color: hotpink;
+}
+
+p.fff { 
+    color: hotpink;
+}
+
+.fff p {
+color: red;
+}
+
+.ddd.fff  {
+    color: gold;
+    }
+    
+.fff h2.bbb {
+    color: darkred;
+}
+
+p {
+	color: red;
+}
+.text {
+	color: green; /* применится этот цвет */
+}
+
+.text {
+	color: red;
+}
+#elem {
+	color: green; /* применится этот цвет */
+}
+
+p {
+	color: red;
+}
+div p {
+	color: green; /* применится этот цвет */
+}
+
+
+.text {
+	color: red;
+}
+.block .text {
+	color: green; /* применится этот цвет */
+}
+
+.block {
+	color: red;
+}
+p {
+	color: green; /* применится этот цвет */
+}
+
+#block {
+	color: red;
+}
+.text {
+	color: green; /* применится этот цвет */
+}
+
+#elem + li {
+	color: red;
+}
+
+.elem + li {
+    color: purple;
+}
+
+#elem ~ li {
+    color: red;
+}
+
+main  *  p {
+    color: red;
+}
+
+
+
+[title] {
+    color:aliceblue;
+}
+
+
+p[title] {
+    color:aliceblue;
+}
+
+
+p[title="hello"]{
+    color:aliceblue;
+}
+
+
+a[href^="http://"]{
+    color:aliceblue;
+}
+
+
+a[href$=".html"]{
+    color:aliceblue;
+}
+
+
+p[title*="hello"]{
+    color:aliceblue;
+}
+
+
+p[class^="top-"]{
+    color:aliceblue;
+}
+
+
+
+a:link {
+	color: red;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+}
+
+
+
+a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: black;
+  }
+
+  
+
+
+
+  a:link, a:visited {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+}
+
+
+
+  a {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+}
+
+
+
+
+a {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+
+a {
+	color: blue;
+    text-decoration: none;
+}
+a:hover {
+	color: red;
+    text-decoration: underline;
+}
+
+
+
+
+p:first-of-type {
+	color: red;
+}
+
+h2:last-of-type {
+	color: red;
+}
+
+
+
+h2:nth-of-type(2) {
+	color: red;
+}
+
+h2:nth-of-type(even) {
+	color: red;
+}
+
+h2:nth-of-type(odd) {
+	color: red;
+}
+
+
+
+h2:nth-last-of-type(2) {
+	color: red;
+}
+
+h2:nth-last-of-type(even) {
+	color: red;
+}
+
+h2:nth-last-of-type(odd) {
+	color: red;
+}
+
+
+
+
+div {
+	border: 1px dashed black;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+h2:only-of-type {
+	color: red;
+}
+
+
+ul li[class="elem"] {
+    color: red;
+}
+
+ul li:first-child ~ li {
+    color: red;
+}
+
+ul li:nth-child(n+2):nth-last-child(n+2) {
+    color: red;
+}
