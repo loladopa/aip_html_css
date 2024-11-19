@@ -1,0 +1,229 @@
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #b14545;
+	margin-bottom: 20px;
+}
+
+#elem2 {
+	width: 100px;
+	height: 100px;
+	background: #4d38bb;
+	border: 10px solid green;  /* задаем границу */
+	padding: 25px;
+	box-sizing: border-box;
+}
+#f {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		border: 1px solid red;
+	}
+#g{
+	width: 100px;
+		margin-bottom: 20px;
+		border: 1px solid red
+}
+#w{
+	
+		height: 100px;
+		margin-bottom: 20px;
+		border: 1px solid red
+}
+span {
+	width: 12px;
+	height: 200px;
+	border: 1px solid red;
+}
+#id {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+a{
+	display: block;
+	width: 45px;
+	height: 55px;
+	border: 5px dashed purple;
+}
+.elem {
+	
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.parent{
+	border: #4d38bb 1px solid;
+}
+.child{
+	height: 100px;
+	width: 100px;
+	border: 1px solid rgb(176, 49, 123);
+	margin: 10px auto;
+}
+.ch1{
+	height: 100px;
+	width: 200px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+
+.ch2{
+	height: 100px;
+	width: 300px;
+	border: 1px solid salmon;
+	margin: 10px auto;
+}
+
+.parent1{
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid red;
+	padding: 500px;
+}
+a{
+	margin-right: auto;
+	
+}
+.parent2{
+	margin-right: auto;
+	padding: 10px 0;
+	border: 1px solid red;
+	padding: 50px;
+}
+.parent3 {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: center;
+}
+.child1 {
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	margin-left: 5px;
+	
+}
+.pa {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: right;
+	padding-right: 10px;
+}
+.ch {
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	margin-right: 16px;
+}
+.par {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: right;
+}
+.chi {
+	width: 100px;
+	padding: 20px;
+	border: 1px solid green;
+	display: inline-block;
+	text-align: center;
+
+}
+.parent4 {
+	display: flex; /* потомки будут флекс элементами */
+	width: 600px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child4 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent5 {
+	display: flex;
+	width: 800px;
+	border: 1px solid red;
+}
+.child5 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+}
+.parent6 {
+	display: flex;
+	border: 1px solid red;
+}
+.child6 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent7 {
+	display: inline-flex;
+	border: 1px solid red;
+}
+.child7{
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent8 {
+	display: inline-flex;
+	padding: 20px;
+	border: 1px solid red;
+}
+.child8 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent9 {
+	display: inline-flex;
+	border: 1px solid red;
+}
+.child9 {
+	margin: 20px;
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent0 {
+	display: flex;
+	justify-content: center;
+	border: 1px solid red;
+}
+.child0 {
+	margin: 20px;
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent11 {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+	height: 200px;
+}
+.child11 {
+
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.child22 {
+
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent22 {
+	display: flex;
+	justify-content: space-evenly;
+	border: 1px solid red;
+	height: 200px;
+	width: 900px;
+}
